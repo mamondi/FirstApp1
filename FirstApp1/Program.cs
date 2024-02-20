@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Text;
 
 class matimatika
 {
     static void Main()
     {
+        Console.InputEncoding = Encoding.Unicode;
+        Console.OutputEncoding = Encoding.Unicode;
+
         double num, sum = 0, max, min, product = 1;
 
         Console.Write("Введіть число 1: ");
